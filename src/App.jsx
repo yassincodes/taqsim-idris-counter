@@ -171,7 +171,7 @@ export default function App() {
 
       {/* Title */}
       <div style={{ textAlign: "center", marginBottom: "36px", animation: "fadeInUp 0.6s ease" }}>
-        <div style={{ fontSize: "3.2rem", marginBottom: "6px" }}>🎓</div>
+      
         <h1 style={{
           fontSize: "clamp(1.6rem, 4vw, 2.6rem)",
           fontWeight: 900,
@@ -181,7 +181,7 @@ export default function App() {
           letterSpacing: "2px",
           transition: "text-shadow 0.3s",
         }}>
-          اختيار التلميذ العشوائي
+         
         </h1>
         <p style={{
           color: "#ffffff77",
@@ -189,7 +189,7 @@ export default function App() {
           fontSize: "1rem",
           letterSpacing: "1px",
         }}>
-          من سيكون المحظوظ اليوم؟ 🎲
+        
         </p>
       </div>
 
@@ -226,7 +226,7 @@ export default function App() {
           position: "relative",
           zIndex: 1,
         }}>
-          {rolling ? "🎲 يجري الاختيار..." : chosenName ? "🎉 تم الاختيار!" : "اضغط الزر للبدء"}
+          {rolling ? "🎲 يجري الاختيار..." : chosenName ? "🎉 تم الاختيار!" : "  "}
         </div>
 
         <div style={{
